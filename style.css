@@ -1,0 +1,81 @@
+
+p {
+    color: red;
+}
+
+
+body {
+    background-color: yellow;
+    background-image: url('assets/background.avif');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+
+
+#para1 {
+    color: green;
+}
+
+
+.colortext {
+    color: blue;
+}
+
+
+h1 {
+    background-color: lightblue;
+    margin: 20px auto 20px auto;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 40px 10px;
+    height: 100px;
+    width: 50%;
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+
+p {
+border: 4px dashed red;
+border-color: red;
+border-left-style: solid;
+border-radius: 10px;
+text-align: center;
+text-transform: capitalize;
+    font-weight: bold;
+}
+
+
+
+.text {
+    width: 200px;
+border: 2px solid red;
+padding: 25px;
+margin-left: 25px;
+outline: 5px solid black;
+}
+
+
+.intro {
+    text-indent: 20px;
+}
+
+/* Без подчеркивание ссылки */
+a {
+    text-decoration: none;
+    color: red;
+}
+
+/* Зеленый цвет  ссылок */
+a:visited {
+    color: green;
+}
+
+
+/* подчеркивание при наведении */
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
