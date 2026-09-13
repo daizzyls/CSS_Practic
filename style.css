@@ -1,8 +1,13 @@
-
 p {
     color: red;
+    border: 4px dashed red;
+    border-color: red;
+    border-left-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
 }
-
 
 body {
     background-color: yellow;
@@ -10,17 +15,15 @@ body {
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
-
+}
 
 #para1 {
     color: green;
 }
 
-
 .colortext {
     color: blue;
 }
-
 
 h1 {
     background-color: lightblue;
@@ -36,46 +39,172 @@ h1 {
     text-transform: uppercase;
 }
 
-
-p {
-border: 4px dashed red;
-border-color: red;
-border-left-style: solid;
-border-radius: 10px;
-text-align: center;
-text-transform: capitalize;
-    font-weight: bold;
-}
-
-
-
 .text {
     width: 200px;
-border: 2px solid red;
-padding: 25px;
-margin-left: 25px;
-outline: 5px solid black;
+    border: 2px solid red;
+    padding: 25px;
+    margin-left: 25px;
+    outline: 5px solid black;
 }
-
 
 .intro {
     text-indent: 20px;
 }
 
-/* Без подчеркивание ссылки */
 a {
     text-decoration: none;
     color: red;
 }
 
-/* Зеленый цвет  ссылок */
 a:visited {
     color: green;
 }
 
-
-/* подчеркивание при наведении */
 a:hover {
     color: black;
     text-decoration: underline;
+}
+
+
+ul {
+  list-style-type: square;
+}
+
+
+ul {
+  list-style-image: url('assets/klematis.jpg');
+}
+
+
+ul, ol {
+  list-style-type: none;
+}
+
+
+ol {
+  list-style-type: upper-roman;
+}
+
+
+table, th, td {
+  border: 2px solid green;
+}
+
+
+table {
+  border-collapse: collapse;
+}
+
+
+td {
+  text-align: right;
+}
+
+
+th {
+  padding: 15px;
+}
+
+
+th {
+  background-color: lightblue;
+}
+
+
+h1 {
+  visibility: hidden;
+}
+
+
+h1 {
+  display: none;
+}
+
+
+li {
+  display: inline;
+}
+
+
+strong {
+  display: block;
+}
+
+
+h1 {
+  position: fixed;
+  top: 50px;
+  right: 10px;
+}
+
+
+h1 {
+  position: relative;
+  top: 50px;
+}
+
+
+h1 {
+  position: absolute;
+  top: 50px;
+}
+
+
+h1 {
+  position: absolute;
+  z-index: 1;
+}
+
+
+.intro {
+  scroll-snap-align: start;
+}
+
+div {
+  overflow: hidden;
+}
+
+
+div {
+  overflow-x: auto;
+}
+
+
+div p {
+  color: blue;
+}
+
+
+div > p {
+  color: red;
+}
+
+
+div + p {
+  color: green;
+}
+
+
+input:focus {
+  background-color: red;
+}
+
+
+p::first-line {
+  background-color: yellow;
+}
+
+
+p::first-letter {
+  background-color: orange;
+}
+
+
+img {
+  opacity: 0.5;
+}
+
+
+img:hover {
+  opacity: 1;
 }
